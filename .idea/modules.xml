@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bos2.iml" filepath="$PROJECT_DIR$/bos2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bos_domain/bos_domain.iml" filepath="$PROJECT_DIR$/bos_domain/bos_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bos_fore/bos_fore.iml" filepath="$PROJECT_DIR$/bos_fore/bos_fore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bos_management/bos_management.iml" filepath="$PROJECT_DIR$/bos_management/bos_management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bos_sms/bos_sms.iml" filepath="$PROJECT_DIR$/bos_sms/bos_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/crm_domain/crm_domain.iml" filepath="$PROJECT_DIR$/crm_domain/crm_domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/crm_management/crm_management.iml" filepath="$PROJECT_DIR$/crm_management/crm_management.iml" />
     </modules>

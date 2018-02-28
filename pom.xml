@@ -10,6 +10,10 @@
     <modules>
         <module>crm_domain</module>
         <module>crm_management</module>
+        <module>bos_domain</module>
+        <module>bos_management</module>
+        <module>bos_fore</module>
+        <module>bos_sms</module>
     </modules>
     <packaging>pom</packaging>
     <name>bos2.0</name>

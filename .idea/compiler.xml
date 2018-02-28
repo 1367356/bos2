@@ -6,12 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bos_domain" />
+        <module name="bos_fore" />
+        <module name="bos_management" />
+        <module name="bos_sms" />
         <module name="crm_domain" />
         <module name="crm_management" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bos2" target="1.8" />
+      <module name="bos_domain" target="1.8" />
+      <module name="bos_fore" target="1.8" />
+      <module name="bos_management" target="1.8" />
+      <module name="bos_sms" target="1.8" />
       <module name="crm_domain" target="1.8" />
       <module name="crm_management" target="1.8" />
     </bytecodeTargetLevel>
