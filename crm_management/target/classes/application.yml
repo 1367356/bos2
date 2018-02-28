@@ -1,0 +1,23 @@
+server:
+  port: 9002
+  context-path: /crm
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/crm
+    username: root
+    password: 1367356
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  devtools:
+    restart:
+      enabled: true
+cxf:
+  path: /services
+  servlet.init:
+    service-list-path: /info
+  jaxrs:
+    component-scan: true
+

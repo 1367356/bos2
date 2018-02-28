@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bos2.iml" filepath="$PROJECT_DIR$/bos2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm_domain/crm_domain.iml" filepath="$PROJECT_DIR$/crm_domain/crm_domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crm_management/crm_management.iml" filepath="$PROJECT_DIR$/crm_management/crm_management.iml" />
+    </modules>
+  </component>
+</project>
