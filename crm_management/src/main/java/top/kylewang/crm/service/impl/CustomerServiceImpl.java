@@ -70,6 +70,8 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public String findFixedAreaIdByAddress(String address) {
-        return customerRepository.findFixedAreaIdByAddress(address);
+//        return customerRepository.findFixedAreaIdByAddress(address);
+        return "hello spring";
     }
+
 }

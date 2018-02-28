@@ -9,7 +9,7 @@ import java.util.List;
  * @author Kyle.Wang
  * 2017/12/31 0031 16:12
  */
-@Path("/customerService")
+@Path("customerService")
 public interface CustomerService {
 
     /**
