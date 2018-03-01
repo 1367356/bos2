@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS 'T_CUSTOMER';
 CREATE TABLE `T_CUSTOMER`(
 'C_ID' int not null,
 'C_USERNAME' varchar(30) not null comment '用户名',
@@ -14,4 +15,4 @@ CREATE TABLE `T_CUSTOMER`(
 'C_EMAIL' varchar(30) not null comment '邮箱',
 'C_Fixed_AREA_ID' varchar(30) not null comment '定区编码'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
--- INSERT INTO `T_CUSTOMER` VALUES (1,'li', '123', '1', '2018-11-02', '1','15528129888','uestc','ee','stu','sichuang','0371-2222222','122@gmail.com','644533');
+INSERT INTO `T_CUSTOMER` VALUES (1,'li', '123', '1', '2018-11-02', '1','15528129888','uestc','ee','stu','sichuang','0371-2222222','122@gmail.com','644533');
