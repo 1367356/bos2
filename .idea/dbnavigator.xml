@@ -25,7 +25,8 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="d189a3ae-8775-4582-b970-49c4e45ff33c">
-        <schema name="crm" object-types="table" />
+        <schema name="crm" object-types="function, table, view" />
+        <schema name="information_schema" object-types="table, view" />
       </connection>
     </loaded-nodes>
   </component>
@@ -43,6 +44,7 @@
   <component name="DBNavigator.Project.FileConnectionMappingManager">
     <mapping file-url="file://$PROJECT_DIR$/crm_domain/createTableSQL.sql" connection-id="d189a3ae-8775-4582-b970-49c4e45ff33c" session-id="MAIN" current-schema="crm" />
     <mapping file-url="file://$PROJECT_DIR$/crm_domain/target/crm.sql" connection-id="d189a3ae-8775-4582-b970-49c4e45ff33c" session-id="MAIN" current-schema="crm" />
+    <mapping file-url="file://$PROJECT_DIR$/bos.sql" connection-id="d189a3ae-8775-4582-b970-49c4e45ff33c" session-id="MAIN" current-schema="crm" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />

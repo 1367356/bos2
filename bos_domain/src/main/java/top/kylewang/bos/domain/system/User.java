@@ -14,7 +14,6 @@ import java.util.Set;
 @Entity
 @Table(name = "T_USER")
 public class User implements Serializable {
-
 	@Id
 	@GeneratedValue
 	@Column(name = "C_ID")
