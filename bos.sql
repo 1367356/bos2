@@ -16,9 +16,9 @@ CREATE TABLE `T_CUSTOMER`(
     C_EMAIL varchar(30) not null comment '邮箱',
     C_Fixed_AREA_ID varchar(30) not null comment '定区编码'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-INSERT INTO `T_CUSTOMER` VALUES (1,'li', '123', '1', '2018-11-02', '1','15528129888','uestc','ee','stu','sichuang','0371-2222222','122@gmail.com','644533');
+INSERT INTO `T_CUSTOMER` VALUES (1,'123456', '123456', '1', '2018-11-02', '1','18888888888','uestc','ee','stu','sichuang','0371-2222222','122@gmail.com','644533');
 
-
+-- bos_domain> system '------------------------------------'
 -- T_USER表
 DROP TABLE IF EXISTS 'T_USER';
 CREATE TABLE `T_USER`(
@@ -32,5 +32,6 @@ CREATE TABLE `T_USER`(
     C_USERNAME varchar(20) not null comment '用戶名',
     C_NICKNAME varchar(20) not null comment '姓名'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+insert into 'T_USER' values (2,'2018-03-02','male','123456','student','in','18888888888','123456','li');
 
-insert into 'T_USER' values (2,'2018-03-02','male','123456','student','in','1888888888','123456','li');
+-- T_ROLE表
