@@ -26,3 +26,20 @@ CREATE TABLE T_AREA(
     C_SHORTCODE varchar(20) not null comment '简码'
     )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 INSERT INTO T_AREA VALUES (1,'省', '城市', '区域','邮编', '城市编码','简码');
+
+-- T_COURIER 表
+DROP TABLE IF EXISTS T_COURIER;
+CREATE TABLE T_COURIER(
+    C_ID int not null,
+    C_COURIER_NUM varchar(30) not null comment '快递员工号',
+    C_NAME varchar(20) not null comment '快递员姓名',
+    C_TELEPHONE varchar(20) not null comment '快递员联系电话',
+    C_PDA varchar(20) not null comment 'PDA号',
+    C_DELTAG varchar(20) not null comment '作废标志 1 为标记作废',
+    C_CHECK_PWD varchar(20) not null comment '查台密码',
+    C_TYPE varchar(20) not null comment '取件员类型',
+    C_COMPANY varchar(20) not null comment '单位',
+    C_VEHICLE_TYPE varchar(20) not null comment '车辆类型',
+    C_VEHICLE_NUM varchar(20) not null comment '车牌号'
+    )ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+INSERT INTO T_COURIER VALUES (1,'快递员工号', '快递员姓名', '快递员联系电话','PDA号', '作废标志 1 为标记作废','查台密码','取件员类型','单位','车辆类型','车牌号');
