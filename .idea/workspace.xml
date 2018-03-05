@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b21c69e0-5f4d-4629-a482-dd74656354ff" name="Default" comment="crm_management创建完成，可以运行maven项目。进行访问">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_8.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bos.sql" afterPath="$PROJECT_DIR$/bos.sql" />
-      <change beforePath="$PROJECT_DIR$/bos_fore/pom.xml" afterPath="$PROJECT_DIR$/bos_fore/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/bos_fore/src/test/java/RedisTest.java" afterPath="$PROJECT_DIR$/bos_fore/src/test/java/RedisTest.java" />
-      <change beforePath="$PROJECT_DIR$/bos_sms/bos_sms.iml" afterPath="$PROJECT_DIR$/bos_sms/bos_sms.iml" />
-      <change beforePath="$PROJECT_DIR$/bos_sms/pom.xml" afterPath="$PROJECT_DIR$/bos_sms/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/bos_sms/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/bos_sms/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/crm_domain/pom.xml" afterPath="$PROJECT_DIR$/crm_domain/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/crm_management/pom.xml" afterPath="$PROJECT_DIR$/crm_management/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/crm_management/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/crm_management/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/_state/global-5.st" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/0/_state/state-5.st" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/0/index/segments_4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/0/translog/translog.ckp" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/0/translog/translog.ckp" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/1/_state/state-5.st" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/1/index/segments_4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/1/translog/translog.ckp" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/1/translog/translog.ckp" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/2/_state/state-5.st" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/2/index/segments_4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/2/translog/translog.ckp" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/2/translog/translog.ckp" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/3/_state/state-5.st" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/3/index/segments_4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/3/translog/translog.ckp" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/3/translog/translog.ckp" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/4/_state/state-5.st" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/4/index/segments_4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/4/translog/translog.ckp" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/4/translog/translog.ckp" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/indices/bos/_state/state-5.st" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="b21c69e0-5f4d-4629-a482-dd74656354ff" name="Default" comment="crm_management创建完成，可以运行maven项目。进行访问" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/crm_domain/target/" />
@@ -438,6 +405,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="705" y="36" width="1223" height="1030" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
