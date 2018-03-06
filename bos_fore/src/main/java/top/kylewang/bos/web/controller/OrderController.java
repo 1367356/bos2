@@ -53,6 +53,7 @@ public class OrderController{
         order.setCustomer_id(customer.getId());
 
         // 调用WebService保存Order
+        System.out.println(order.getCustomer_id()+"  "+order.getGoodsType());
         WebClient.create(Constants.BOS_MANAGEMENT_URL+"/services/orderService/order")
                 .type(MediaType.APPLICATION_JSON).post(order);
         response.sendRedirect("index.html#/express_manage");

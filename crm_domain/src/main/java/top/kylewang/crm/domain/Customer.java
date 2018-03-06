@@ -11,7 +11,7 @@ import java.util.Date;
  */
 @Entity
 @Table(name = "T_CUSTOMER")
-@XmlRootElement(name = "customer")
+@XmlRootElement(name = "customer")  //以xml形式返回Customer对象数据
 public class Customer {
 	@Id
 	@GeneratedValue()

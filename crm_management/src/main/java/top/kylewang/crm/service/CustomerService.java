@@ -59,7 +59,7 @@ public interface CustomerService {
      */
     @Path("/customer/telephone/{telephone}")
     @GET
-    @Consumes({"application/xml", "application/json"})
+    @Consumes({"application/json"})
     Customer findByTelephone(@PathParam("telephone") String telephone);
 
 
@@ -81,7 +81,7 @@ public interface CustomerService {
      */
     @Path("/customer/login")
     @GET
-    @Consumes({"application/xml", "application/json"})
+    @Produces({"application/xml", "application/json"})
     Customer login(@QueryParam("telephone") String telephone, @QueryParam("password") String password);
 
 

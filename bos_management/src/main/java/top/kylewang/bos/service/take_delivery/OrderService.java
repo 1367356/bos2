@@ -10,6 +10,7 @@ import javax.ws.rs.Path;
  * @author Kyle.Wang
  * 2018/1/7 0007 19:42
  */
+@Path("/orderService")
 public interface OrderService {
 
 
@@ -19,7 +20,7 @@ public interface OrderService {
      */
     @Path("/order")
     @POST
-    @Consumes({"application/xml","application/json"})
+    @Consumes({"application/json"})
     void saveOrder(Order order);
 
     /**

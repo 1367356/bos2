@@ -15,7 +15,7 @@ import java.util.Set;
  */
 @Entity
 @Table(name = "T_ORDER")
-@XmlRootElement(name = "order")
+//@XmlRootElement(name = "order")
 public class Order {
 	@Id
 	@GeneratedValue
